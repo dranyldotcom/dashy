@@ -1,47 +1,247 @@
----
-# Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
-appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  title: '>_ hello dranyl'
+  navLinks: []
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - name: Gentrack
+    icon: fas fa-book
+    items:
+      - title: Energy FIJI
+        description: ''
+        icon: ''
+        url: https://gentrack.atlassian.net/wiki/spaces/EFGS/overview
+        target: null
+        id: 0_815_energyfiji
+      - title: Sprint
+        description: ''
+        icon: ''
+        url: >-
+          https://gentrack.atlassian.net/jira/software/c/projects/FUZE/boards/842
+        target: newtab
+        id: 1_815_sprint
+      - title: JIRA
+        url: https://gentrack.atlassian.net/jira/your-work
+        id: 2_815_jira
+      - title: Home
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/~623797ad94742a00683c4036/overview
+        target: newtab
+        id: 3_815_home
+      - title: Release Code
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/GENR/pages/700384055/How+to+release+code+to+Genesis+system+IQA+GENIQA+TEST+GENTEST+UAT+and+GENUAT
+        id: 4_815_releasecode
+      - title: Timesheet
+        url: https://4440942.app.netsuite.com/app/center/card.nl?sc=-46&whence=
+        target: newtab
+        id: 5_815_timesheet
+      - title: Nifty
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/GD/pages/3251437648/Team+Nifty
+        target: newtab
+        id: 6_815_nifty
+      - title: Manawa
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/GENCO/overview?homepageId=2790000396
+        target: newtab
+        id: 7_815_manawa
+      - title: Manawa Environment
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/GENCO/pages/2790033060/Infrastructure+and+Environments
+        target: newtab
+        id: 8_815_manawaenvironment
+      - title: GenHub
+        url: https://gentrack.sharepoint.com/sites/GenHub
+        target: newtab
+        id: 9_815_genhub
+      - title: Take Notes
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/~623797ad94742a00683c4036/pages/3675001083/Take+Note
+        target: newtab
+        id: 10_815_takenotes
+      - title: Work
+        url: https://gentrack.atlassian.net/jira/your-work
+        target: newtab
+        id: 11_815_work
+      - title: Velocity Core Wiki
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/VEL/overview?homepageId=36681
+        target: newtab
+        id: 12_815_velocitycorewiki
+    displayData:
+      sortBy: most-used
+      rows: 1
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    widgets:
+      - type: embed
+        options:
+          html: |
+            <button class="button-8" onclick="copyPonga()">ponga</button>
+            <button class="button-8" onclick="copyGenesis()">genesis</button>
+          script: |
+            function copyPonga() {
+              navigator.clipboard.writeText("Gentrack2022")
+            }
+            function copyGenesis() {
+              navigator.clipboard.writeText("Vanguard2022")
+            }
+        id: 0_815_embed
+  - name: Genesis
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Home
+        url: https://gentrack.atlassian.net/wiki/spaces/GENR/overview
+        target: newtab
+        id: 0_718_home
+      - title: Onsite
+        url: >-
+          https://jiragenesisenergy.atlassian.net/wiki/spaces/GENTRCK/overview?homepageId=1941373269
+        target: newtab
+        id: 1_718_onsite
+      - title: Service Request
+        url: >-
+          https://gentrack.sharepoint.com/sites/Genesis/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FGenesis%2FShared%20Documents%2FService%20Requests&viewid=6c5c0b0d%2D300f%2D4c37%2D9f79%2D031cc950e018
+        target: newtab
+        id: 2_718_servicerequest
+      - title: Trello
+        url: https://trello.com/b/pw6MV1pp/gentrack
+        target: newtab
+        id: 3_718_trello
+  - name: Manawa
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Genproj Dev
+        url: http://genproj04:6102/
+        target: newtab
+        id: 0_597_genprojdev
+      - title: Manawa Home
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/GENCO/overview?homepageId=2790000396
+        target: newtab
+        id: 1_597_manawahome
+      - title: Manawa Environments
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/GENCO/pages/2790033060/Infrastructure+and+Environments
+        target: newtab
+        id: 2_597_manawaenvironments
+  - name: Developer Tools
+    items:
+      - title: XML viewer
+        url: https://countwordsfree.com/xmlviewer
+        target: newtab
+        id: 0_1495_xmlviewer
+      - title: Portainer
+        url: https://localhost:9443/#!/2/docker/containers
+        target: newtab
+        id: 1_1495_portainer
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    icon: fas fa-computer-classic
+  - name: Personal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: My C# Journey
+        url: >-
+          https://www.notion.so/dranyl/My-C-Journey-3cef1d07bb174d5dbee1f26a98ed4e7f
+        target: newtab
+        id: 0_836_mycjourney
+      - title: dashy example
+        url: >-
+          https://github.com/Lissy93/dashy/blob/master/docs/configuring.md#example
+        target: newtab
+        id: 1_836_dashyexample
+      - title: Shortcuts
+        url: >-
+          https://www.notion.so/dranyl/Shortcuts-dbc25a17d9564e41a362baf77d0b802b?pvs=4
+        target: newtab
+        id: 2_836_shortcuts
+  - name: Admin
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Kudos
+        url: https://gentrack.achievers.com/recent_activity
+        target: newtab
+        id: 0_489_kudos
+  - name: Mercury/TrustPower
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: 'Trustpower V4 Environments '
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/TRUSTPOWER/pages/402556604/Trustpower+V4+Environments
+        target: newtab
+        id: 0_1861_trustpowervenvironments
+      - title: TP Jira
+        url: https://mercurynz.atlassian.net/jira/your-work
+        target: newtab
+        id: 1_1861_tpjira
+appConfig:
+  theme: cherry-blossom
+  language: en
+  layout: auto
+  iconSize: small
+  startingView: minimal
+  defaultOpeningMethod: newtab
+  statusCheck: false
+  statusCheckInterval: 0
+  faviconApi: allesedv
+  routingMode: history
+  enableMultiTasking: false
+  widgetsAlwaysUseProxy: false
+  webSearch:
+    disableWebSearch: true
+    searchEngine: chrome
+    openingMethod: newtab
+    searchBangs: {}
+  enableFontAwesome: true
+  enableMaterialDesignIcons: false
+  hideComponents:
+    hideHeading: false
+    hideNav: false
+    hideSearch: false
+    hideSettings: false
+    hideFooter: false
+  auth:
+    enableGuestAccess: false
+    users: []
+    enableKeycloak: false
+  showSplashScreen: false
+  preventWriteToDisk: false
+  preventLocalSave: false
+  disableConfiguration: false
+  disableConfigurationForNonAdmin: false
+  allowConfigEdit: true
+  enableServiceWorker: false
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+  enableErrorReporting: false
