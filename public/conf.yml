@@ -67,6 +67,11 @@ sections:
           https://gentrack.atlassian.net/wiki/spaces/VEL/overview?homepageId=36681
         target: newtab
         id: 12_815_velocitycorewiki
+      - title: Velocity v3 Environment Setup and Usage
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/BAST/pages/2692840/Velocity+v3+Environment+Setup+and+Usage
+        target: newtab
+        id: 13_815_velocityv3environmentsetupandusage
     displayData:
       sortBy: most-used
       rows: 1
