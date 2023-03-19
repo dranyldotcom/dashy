@@ -72,6 +72,11 @@ sections:
           https://gentrack.atlassian.net/wiki/spaces/BAST/pages/2692840/Velocity+v3+Environment+Setup+and+Usage
         target: newtab
         id: 13_815_velocityv3environmentsetupandusage
+      - title: Confluence Search
+        url: >-
+          https://gentrack.atlassian.net/wiki/search
+        target: newtab
+        id: 14_815_confluencesearch
     displayData:
       sortBy: most-used
       rows: 1
