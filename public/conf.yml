@@ -53,11 +53,11 @@ sections:
         url: https://gentrack.sharepoint.com/sites/GenHub
         target: newtab
         id: 9_815_genhub
-      - title: Take Notes
+      - title: Notes
         url: >-
-          https://gentrack.atlassian.net/wiki/spaces/~623797ad94742a00683c4036/pages/3675001083/Take+Note
+          https://gentrack.atlassian.net/wiki/spaces/~623797ad94742a00683c4036/pages/3675001083/Notes
         target: newtab
-        id: 10_815_takenotes
+        id: 10_815_notes
       - title: Work
         url: https://gentrack.atlassian.net/jira/your-work
         target: newtab
