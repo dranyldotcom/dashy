@@ -77,6 +77,11 @@ sections:
           https://gentrack.atlassian.net/wiki/search
         target: newtab
         id: 14_815_confluencesearch
+      - title: ICT KnowledgeBase
+        url: >-
+          https://gentrack.atlassian.net/wiki/spaces/CST/overview?homepageId=4103749
+        target: newtab
+        id: 15_815_ictknowledgebase
     displayData:
       sortBy: most-used
       rows: 1
