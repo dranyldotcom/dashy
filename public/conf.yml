@@ -21,11 +21,11 @@ sections:
       - title: JIRA
         url: https://gentrack.atlassian.net/jira/your-work
         id: 2_815_jira
-      - title: Home
+      - title: Overview
         url: >-
           https://gentrack.atlassian.net/wiki/spaces/~623797ad94742a00683c4036/overview
         target: newtab
-        id: 3_815_home
+        id: 3_815_overview
       - title: Release Code
         url: >-
           https://gentrack.atlassian.net/wiki/spaces/GENR/pages/700384055/How+to+release+code+to+Genesis+system+IQA+GENIQA+TEST+GENTEST+UAT+and+GENUAT
